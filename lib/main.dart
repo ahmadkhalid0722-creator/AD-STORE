@@ -8,7 +8,7 @@ const green = Color(0xFF39D98A);
 const pink = Color(0xFFFF69B4);
 const purple = Color(0xFFB99AFF);
 
-String cash(double n) => '$${n.toStringAsFixed(2)}';
+String cash(double n) => 'USD ${n.toStringAsFixed(2)}';
 
 Color sectionColor(String s) {
 if (s == 'الألعاب') return pink;
